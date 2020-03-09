@@ -3,17 +3,20 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <e-v></e-v>
+    <AntdTable></AntdTable>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import EV from './components/Event'
+import AntdTable from './components/AntdTable'
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    EV
+    EV,
+    AntdTable
   }
 }
 </script>

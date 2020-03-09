@@ -2,9 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h1 v-html="msg1"></h1>
-    <div :class="[a1,a2]">我借你 {{money}}， 你还我{{a}},还剩{{b}} </div>
-    <div :class="{'test-1':a3}">style object</div>
-    <div :class="obj">style object</div>
+    <a-button>ssss</a-button>
   </div>
 </template>
 
